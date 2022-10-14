@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
     ListView listView;
     @Override
@@ -14,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.ListView);
 
+        ArrayList<club_object> arrayList = new ArrayList<>();
 
+      arrayList.add(new club_object(R.drawable.psg, "psg", "sub"));
 
     }
 }

@@ -5,13 +5,11 @@ public class club_object {
     String Name;
     String Des;
 
-
-     public club_object(int image, String name, String des) {
-         Image = image;
-         Name = name;
-         Des = des;
-     }
-
+    public club_object(int image, String name, String des) {
+        Image = image;
+        Name = name;
+        Des = des;
+    }
 
     public int getImage() {
         return Image;
